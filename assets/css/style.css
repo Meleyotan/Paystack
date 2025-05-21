@@ -1,3 +1,42 @@
+@font-face {
+    font-family: 'boing';
+    src: url('../fonts/boing/boing_semibold_web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'graphik';
+    src: url('../fonts/graphik/graphik_semibold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Build with vanilla css first, comment it after seeing it has worked, use scss to rebuild */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'boing', sans-serif;
+}
+
+.navigation-container{
+    display: flex;
+}
+.navigation-item-2{
+    display: flex;
+}
+
+.navigation-item-2 ul{
+    display: flex;
+    list-style: none;
+}
+
+img{
+    width: 1.5rem;
+}
 h2{
     color: blue;
 }
